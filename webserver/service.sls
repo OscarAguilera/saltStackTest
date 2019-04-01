@@ -3,4 +3,4 @@ nginx_service:
     - name: nginx
     - enable: True
     - require:
-      - pkg: nginx_server
+      - pkg: nginx_pkg
