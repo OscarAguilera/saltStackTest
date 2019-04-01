@@ -1,6 +1,6 @@
 new_directory:
   file.directory:
-    - name: /home/mytest/test
+    - name: /home/cloud_user/Desktop/mytest/test
     - user: root
     - group: root
     - mode: 777
