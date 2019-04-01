@@ -1,5 +1,5 @@
 new_directory:
-  file.direcory:
+  file.directory:
     - name: /home/mytest/test
     - user: root
     - group: root
