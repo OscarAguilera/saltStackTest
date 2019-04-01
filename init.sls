@@ -1,3 +1,3 @@
 include:
-  - webserver.install
-  - webserver.service
+  - install
+  - service
