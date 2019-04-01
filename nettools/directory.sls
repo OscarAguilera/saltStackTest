@@ -1,6 +1,6 @@
 new_directory:
-  file.directory:
+  file.managed:
     - name: /home/cloud_user/Desktop/mytest/test
     - user: root
     - group: root
-    - mode: 777
+    - dir_mode: 777
