@@ -1,2 +1,2 @@
 include:
-  - ipconflicts.ipscan
+  - ipconflicts.devipscan
