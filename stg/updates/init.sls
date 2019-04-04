@@ -1,2 +1,2 @@
 include:
-  - updates.stgupdates
+  - stg.updates.stgupdates

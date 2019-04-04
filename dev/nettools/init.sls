@@ -1,3 +1,3 @@
 include:
-  - nettools.devdirectory
-  - nettools.devnettools
+  - dev.nettools.devdirectory
+  - dev.nettools.devnettools

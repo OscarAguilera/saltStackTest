@@ -1,3 +1,3 @@
 include:
-  - webserver.stginstall
-  - webserver.stgservice
+  - stg.webserver.stginstall
+  - stg.webserver.stgservice

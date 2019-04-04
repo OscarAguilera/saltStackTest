@@ -1,2 +1,2 @@
 include:
-  - ipconflicts.stgipscan
+  - stg.ipconflicts.stgipscan

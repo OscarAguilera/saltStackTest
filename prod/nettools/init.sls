@@ -1,3 +1,3 @@
 include:
-  - nettools.proddirectory
-  - nettools.prodnettools
+  - prod.nettools.proddirectory
+  - prod.nettools.prodnettools

@@ -1,2 +1,2 @@
 include:
-  - updates.produpdates
+  - prod.updates.produpdates

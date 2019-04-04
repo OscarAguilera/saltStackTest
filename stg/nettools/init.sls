@@ -1,3 +1,3 @@
 include:
-  - nettools.stgdirectory
-  - nettools.stgnettools
+  - stg.nettools.stgdirectory
+  - stg.nettools.stgnettools

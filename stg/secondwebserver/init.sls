@@ -1,2 +1,2 @@
 include:
-  - secondwebserver.stgwebserver
+  - stg.secondwebserver.stgwebserver
