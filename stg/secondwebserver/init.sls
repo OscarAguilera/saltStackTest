@@ -1,2 +1,0 @@
-include:
-  - stg.secondwebserver.stgwebserver

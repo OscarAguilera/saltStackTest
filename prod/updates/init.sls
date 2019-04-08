@@ -1,2 +1,0 @@
-include:
-  - prod.updates.produpdates

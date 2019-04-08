@@ -1,2 +1,0 @@
-include:
-  - stg.updates.stgupdates
