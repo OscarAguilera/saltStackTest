@@ -1,4 +1,4 @@
-network_packages:
+domain_centos_packages:
   pkg.installed:
     - pkgs:
       - sssd 
