@@ -9,5 +9,8 @@ security_updates_deb:
 {% endif %}
 security_updates_rel:
   cmd.run:
-    - name: yum update --security
+    - name: yum updateinfo list
+    - name: yum list-security --security
+    - name: yum update-minimal --security -y
+    - name: yum -y update --security
     - name: yum upgrade --security
