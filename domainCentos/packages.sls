@@ -3,11 +3,13 @@
 domain_ubuntu_packages:
   pkg.installed:
     - pkgs:
+      - ntpdate
       - samba
-      - krb5-config
+      - krb5-config 
       - krb5-user
-      - libnsswinbind
+      - winbind
       - libpam-winbind
+      - libnss-winbind
 {% endif %}
 
 domain_centos_packages:
