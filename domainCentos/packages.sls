@@ -1,16 +1,4 @@
-{% if grains['os_family'] == 'Debian' %}
-
-domain_ubuntu_packages:
-  pkg.installed:
-    - pkgs:
-      - ntpdate
-      - samba
-      - krb5-config 
-      - krb5-user
-      - winbind
-      - libpam-winbind
-      - libnss-winbind
-{% endif %}
+{% if grains['os_family'] == 'RedHat' %}
 
 domain_centos_packages:
   pkg.installed:
@@ -25,3 +13,17 @@ domain_centos_packages:
       - krb5-workstation 
       - openldap-clients 
       - policycoreutils-python
+
+
+{% endif %}
+
+domain_ubuntu_packages:
+  pkg.installed:
+    - pkgs:
+      - ntpdate
+      - samba
+      - krb5-config 
+      - krb5-user
+      - winbind
+      - libpam-winbind
+      - libnss-winbind
