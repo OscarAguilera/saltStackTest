@@ -14,9 +14,7 @@ domain_centos_packages:
       - openldap-clients 
       - policycoreutils-python
 
-
-{% endif %}
-
+{% else %}
 domain_ubuntu_packages:
   pkg.installed:
     - pkgs:
@@ -27,3 +25,4 @@ domain_ubuntu_packages:
       - winbind
       - libpam-winbind
       - libnss-winbind
+{% endif %}
