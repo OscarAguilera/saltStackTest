@@ -2,8 +2,9 @@
 
 security_updates_deb:
   cmd.run:
-    - name: apt-get update --security
-    - name: apt-get upgrade --security
+    - name: apt-get update
+    - name: apt-get --upgradable
+    - name: apt-get upgrade -y
 
 {% endif %}
 security_updates_rel:
