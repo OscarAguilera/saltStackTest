@@ -2,15 +2,18 @@
 
 security_updates_deb:
   cmd.run:
-    - name: apt-get update
-    - name: apt-get --upgradable
-    - name: apt-get upgrade -y
-{% endif %}
+    - name: |
+        apt-get update
+        apt-get --upgradable
+        apt-get upgrade -y
+{% else %}
 
 security_updates_rel:
   cmd.run:
-    - name: yum updateinfo list
-    - name: yum list-security --security
-    - name: yum update-minimal --security -y
-    - name: yum -y update --security
-    - name: yum upgrade --security
+    - name: |
+        yum updateinfo list
+        yum list-security --security
+        yum update-minimal --security -y
+        yum -y update --security
+        yum upgrade --security
+{% endif %}
