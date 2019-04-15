@@ -1,2 +1,2 @@
 include:
-  - dev.updates.devupdates
+  - updates
