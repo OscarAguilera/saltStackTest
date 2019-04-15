@@ -1,6 +1,6 @@
 dev:
-  'digitalonus012c*':
+  '*012c*':
     - nettools
-  'digitalonus01*':
+  '*01*':
     - updates
     - domainCentos.packages
