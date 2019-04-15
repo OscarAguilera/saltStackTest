@@ -3,4 +3,4 @@ dev:
     - nettools
   '*01*':
     - updates
-    - domainCentos.packages
+    - base.dev.domainCentos.packages

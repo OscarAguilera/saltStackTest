@@ -1,3 +1,2 @@
 include:
-  - nettools
-  - nettools
+  - base.dev.nettools

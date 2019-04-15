@@ -1,2 +1,2 @@
 include:
-  - updates
+  - base.dev.updates
